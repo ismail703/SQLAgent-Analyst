@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <!-- Soft shadow filter -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#4a2e18" flood-opacity="0.15" />
+    </filter>
+
+    <style>
+      .retro-text {
+        font-family: 'Pacifico', 'Brush Script MT', 'Grand Hotel', cursive, sans-serif;
+        font-size: 114px;
+        font-weight: bold;
+        font-style: italic;
+      }
+      .outline-thick {
+        stroke: #4a2711;
+        stroke-width: 20px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .outline-cone {
+        stroke: #4a2711;
+        stroke-width: 9px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#drop-shadow)">
+    <!-- ================= CONE ================= -->
+    <g id="cone">
+      <!-- Cone Base Body -->
+      <polygon points="212,185 288,185 272,320 250,335 228,320" fill="#e5a65d" stroke="#4a2711" stroke-width="9" stroke-linejoin="round" />
+
+      <!-- Waffle Grid Pattern (Lines) -->
+      <!-- Diagonals / -->
+      <line x1="216" y1="210" x2="278" y2="270" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+      <line x1="222" y1="250" x2="264" y2="295" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+      <line x1="214" y1="188" x2="284" y2="245" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+
+      <!-- Diagonals \ -->
+      <line x1="284" y1="210" x2="222" y2="270" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+      <line x1="278" y1="250" x2="236" y2="295" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+      <line x1="286" y1="188" x2="216" y2="245" stroke="#4a2711" stroke-width="5" stroke-linecap="round" />
+
+      <!-- Cone Rim / Lip -->
+      <rect x="202" y="172" width="96" height="20" rx="10" fill="#e5a65d" stroke="#4a2711" stroke-width="8" />
+    </g>
+
+    <!-- ================= ICE CREAM SCOOP ================= -->
+    <g id="swirl">
+      <!-- Outline / Silhouette Layer -->
+      <path d="M 250 28
+               C 270 45, 276 58, 260 74
+               C 292 78, 305 98, 284 122
+               C 316 128, 324 158, 290 188
+               C 274 200, 268 238, 255 240
+               C 245 242, 244 202, 235 204
+               C 226 206, 222 250, 210 252
+               C 198 254, 194 208, 184 205
+               C 174 202, 172 225, 164 220
+               C 152 212, 160 178, 178 165
+               C 166 142, 175 118, 202 108
+               C 202 85, 218 64, 240 50
+               Z"
+            fill="#29b6d8"
+            stroke="#4a2711"
+            stroke-width="10"
+            stroke-linejoin="round"
+            stroke-linecap="round" />
+
+      <!-- Inner Depth / Shading Swirl Folds -->
+      <path d="M 235 60 C 255 70, 268 85, 222 102" fill="none" stroke="#168baf" stroke-width="7" stroke-linecap="round" />
+      <path d="M 205 110 C 245 118, 282 125, 245 152" fill="none" stroke="#168baf" stroke-width="8" stroke-linecap="round" />
+      <path d="M 180 162 C 220 168, 290 170, 265 200" fill="none" stroke="#168baf" stroke-width="8" stroke-linecap="round" />
+
+      <!-- Drips -->
+      <path d="M 226 195 C 226 235, 216 248, 210 248 C 204 248, 196 230, 200 195" fill="#29b6d8" />
+      <path d="M 268 185 C 270 225, 260 236, 255 236 C 248 236, 244 215, 248 185" fill="#29b6d8" />
+
+      <!-- Sprinkles / Dots -->
+      <g fill="#4a2711">
+        <circle cx="242" cy="54" r="2.8" />
+        <circle cx="258" cy="62" r="3.2" />
+        <circle cx="225" cy="80" r="3.0" />
+        <circle cx="248" cy="84" r="3.4" />
+        <circle cx="270" cy="94" r="2.8" />
+        <circle cx="215" cy="128" r="3.2" />
+        <circle cx="236" cy="122" r="3.5" />
+        <circle cx="264" cy="132" r="3.0" />
+        <circle cx="288" cy="148" r="3.2" />
+        <circle cx="196" cy="148" r="3.5"I cannot directly generate or export new image files, but you can easily reproduce or generate this exact icon using image-generation tools (such as Midjourney, DALL-E, or Canva) or create it as an SVG vector.
+
+Here are the precise prompts and vector specifications to recreate it:
+
+### Text-to-Image Generation Prompt
+> **Prompt:** A clean vector logo icon of a soft-serve ice cream cone centered on a solid white background. The ice cream swirl is vibrant cyan/teal with dark sprinkles, melting slightly over a crosshatched golden-brown waffle cone. In front of the lower half of the cone, the bold retro script text "Ice Cream" is displayed in white with a thick brown outline. Cartoon mascot illustration style, bold outlines, flat colors, no background elements, no subtitle or extra text below the main word.
+
+---
+
+### Clean SVG Code
+If you need a scalable vector directly for web or design tools (Figma, Illustrator), you can save this code as an `.svg` file:
+
+```xml
+<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .outline { stroke: #4A2810; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .cone-fill { fill: #E5A65D; }
+      .ice-fill { fill: #00AEEF; }
+      .ice-dark { fill: #008CC6; }
+      .sprinkle { fill: #1D4354; }
+      .text-outline {
+        font-family: 'Arial Rounded MT Bold', 'Fredoka One', 'Trebuchet MS', sans-serif;
+        font-size: 52px;
+        font-weight: 900;
+        font-style: italic;
+        fill: #FFFFFF;
+        stroke: #4A2810;
+        stroke-width: 10;
+        paint-order: stroke fill;
+      }
+    </style>
+  </defs>
+
+  <!-- Waffle Cone -->
+  <polygon points="150,170 250,170 200,280" class="cone-fill outline"/>
+  <line x1="165" y1="170" x2="210" y2="260" stroke="#4A2810" stroke-width="4"/>
+  <line x1="190" y1="170" x2="218" y2="235" stroke="#4A2810" stroke-width="4"/>
+  <line x1="235" y1="170" x2="190" y2="260" stroke="#4A2810" stroke-width="4"/>
+  <line x1="210" y1="170" x2="182" y2="235" stroke="#4A2810" stroke-width="4"/>
+  <rect x="140" y="160" width="120" height="16" rx="8" class="cone-fill outline"/>
+
+  <!-- Ice Cream Scoop -->
+  <path d="M150,160 C135,160 140,120 160,110 C155,90 180,70 200,60 C215,75 240,85 235,110 C255,120 260,160 245,160 C235,185 225,180 220,165 C215,190 200,185 195,165 C185,185 175,180 170,165 C165,180 155,180 150,160 Z" class="ice-fill outline"/>
+  <path d="M175,115 C190,105 210,105 225,120" stroke="#008CC6" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M165,140 C185,130 215,130 235,145" stroke="#008CC6" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Sprinkles -->
+  <circle cx="175" cy="95" r="3" class="sprinkle"/>
+  <circle cx="210" cy="90" r="3" class="sprinkle"/>
+  <circle cx="195" cy="115" r="3" class="sprinkle"/>
+  <circle cx="165" cy="130" r="3" class="sprinkle"/>
+  <circle cx="225" cy="135" r="3" class="sprinkle"/>
+  <circle cx="185" cy="150" r="3" class="sprinkle"/>
+
+  <!-- "Ice Cream" Main Text -->
+  <text x="200" y="275" text-anchor="middle" class="text-outline">Ice Cream</text>
+</svg>
